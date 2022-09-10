@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Pokemon News</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    
+
+    
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand imagem" href="#">Pokémon News</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#descricao">Descrição</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#imagens">Imagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#videos">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slide1.jpg" class="img-fluid w-100 h-100" alt="Minha Figura">
+
+        <div class="container">
+          <div class="carousel-caption text-dark">
+            <h1>O melhor conjunto de movimentos para Steelix em Pokémon Go</h1>
+            <p><a class="btn btn-lg btn-primary" href="https://noticiascamaqua.com.br/2022/09/08/o-melhor-conjunto-de-movimentos-para-steelix-em-pokemon-go/">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide2.jpg" class="img-fluid w-100 h-100" alt="Minha Figura">
+
+        <div class="container">
+          <div class="carousel-caption text-light">
+            <h1>Quando começa a Temporada da Luz em Pokémon Go?</h1>
+            <p><a class="btn btn-lg btn-primary" href="https://noticiascamaqua.com.br/2022/08/28/quando-comeca-a-temporada-da-luz-em-pokemon-go/">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide3.jpg" class="img-fluid w-100 h-100" alt="Minha Figura">
+
+        <div class="container">
+          <div class="carousel-caption text-dark">
+            <h1>As melhores equipes de Pokémon para a Psychic Cup em Pokémon Go</h1>
+            <p><a class="btn btn-lg btn-primary" href="https://noticiascamaqua.com.br/2022/09/08/as-melhores-equipes-de-pokemon-para-a-psychic-cup-em-pokemon-go-setembro-de-2022/">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  
+  <div class="container marketing">
+    
+    <!-- Three columns of text below the carousel -->
+    <div class="row" id="descricao">
+      
+      <div class=" text-center my-3 "> <h1 class="featurette-heading align-top fw-normal lh-1"> Descrição </h1> </div>
+      <div class="my-3">
+      <p>Pokémon é uma franquia de mídia que pertence a The Pokémon Company, tendo sido criada por Satoshi Tajiri em 1995. Ela é centrada em criaturas ficcionais chamadas "Pokémon", que os seres humanos capturam e os treinam para lutarem entre si com seus ataques de diversos tipos.</p>
+      <p>A franquia começou com um par de jogos lançados para o Game Boy original, desenvolvidos pela Game Freak e publicados pela Nintendo. Atualmente, a franquia se estende em jogos, cartas colecionáveis, série de televisão, além de filmes, mangás e brinquedos. Pokémon é a segunda franquia de mídia de jogos mais bem sucedida e lucrativa do mundo, atrás da franquia de Mario que também pertence a Nintendo.
+      </p>
+      <p>Em 2006, a franquia celebrou seu aniversário de 10 anos. As vendas dos jogos (incluindo home console games, como Hey You, Pikachu!, para Nintendo 64) acumularam mais de 200 milhões de cópias vendidas. Em novembro de 2005, a 4Kids Entertainment, que tinha conseguido o licenciamento da série animada, anunciou que havia concordado em não renovar o contrato da representação da franquia. A Pokémon USA Inc. (atualmente The Pokémon Company International), uma subsidiária da japonesa Pokémon Co., passou a supervisionar todas as licenças de Pokémon fora da Ásia. Até 2013, a franquia de Pokémon acumulou ¥4 trilhões ao redor do mundo (equivalente a US$ 40,98 bilhões).</p>
+      </div>
+      
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider" id="imagens">
+
+    <div class="container text-center"> <h1 class="featurette-heading fw-normal lh-1"> Imagens </h1> </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Cynthia</h2>
+        <p class="lead">Cynthia faz sua primeira aparição em Pokémon Diamond, Pearl e Platinum, onde ela se encontra com o jogador em vários pontos durante sua jornada. Ela conhecerá o jogador pela primeira vez em Eterna City, onde ela lhe dará HM01 (Cut) quando se encontrar pela primeira vez. Apenas em Platinum, ela dará ao jogador um Togepi Egg depois que o jogador derrotar Júpiter no Team Galactic Eterna Building. No Valor Lakefront, ela dá ao jogador a SecretPotion para curar o Psyduck bloqueando a Rota 210. Depois que o jogador cura o Psyduck, Cynthia aparece novamente e dá ao jogador o Old Charm para entregar à sua avó. Mais tarde, ela aparece na Liga Pokémon como a Campeã.</p>
+      </div>
+      <div class="col-md-5">
+      <div class="modal-dialog modal-fullscreen-sm-down">
+        <img src="https://images5.alphacoders.com/119/1193236.png" class="img-fluid">
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Garchomp</h2>
+        <p class="lead">Garchomp é um Pokémon bípede e draconiano que é principalmente de cor azul escuro. Tem vermelho em sua barriga desde a mandíbula até o meio do abdômen, incluindo a parte inferior dos braços. Uma mancha de ouro chega a um ponto abaixo do vermelho em sua barriga, e uma forma de estrela dourada adorna a ponta de seu focinho. Garchomp tem apêndices semelhantes a chifres que se assemelham aos motores de um jato ou avião, dando-lhe uma aparência semelhante a um tubarão-martelo. Estes permitem-lhe sentir a sua presa a uma longa distância. Sua boca grande apresenta dentes afiados. Os pés têm três garras brancas, e cada braço tem uma única garra grande e branca para uma mão. Barbatanas curvas brotam dos braços, criando asas que permitem que Garchomp voe. Garchomp também tem uma grande barbatana dorsal e outra na cauda que se assemelha a uma barbatana caudal de tubarão. A barbatana dorsal do macho tem um entalhe. Pares de pequenos espinhos brancos se projetam de seus braços e pernas, e há fendas semelhantes a guelras nas laterais do pescoço. Os olhos são intensos, com escleras pretas e íris douradas.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="https://img.pokemondb.net/artwork/garchomp.jpg" width="360" height="378" alt="Garchomp artwork by Ken Sugimori">
+
+      </div>
+    </div>
+<!-- Eevee -->
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted">Eevee</span></h2>
+        <p class="lead">Eevee é um Pokémon pequeno, mamífero, quadrúpede com principalmente pele marrom. A ponta de sua cauda espessa e sua grande gola peluda são de cor creme. Tem pernas curtas e delgadas com três dedos pequenos e uma almofada de pata rosa em cada pé. Eevee tem olhos castanhos, orelhas longas e pontudas com interior marrom escuro e um pequeno nariz preto.
+</p>
+      </div>
+      <div class="col-md-5">
+        <!-- Full screen modal -->
+      <div class="modal-dialog modal-fullscreen-sm-down">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png" class="img-fluid">
+        
+      </div>
+        
+      </div>
+    </div>
+    
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+    <hr class="featurette-divider" id="videos">
+
+    <div class="container text-center"> <h1 class="featurette-heading fw-normal lh-1"> Videos  </h1> </div>
+    <div><p class="lead"> Temos algo realmente incrível para compartilhar com vocês, Treinadores!
+
+Tivemos a sorte de obter um vídeo do fotógrafo de Paldea, documentando sua experiência única observando Grafaiai.</p>
+    
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rPWSMyGx6OI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </di
+    <hr class="featurette-divider"></div>
+    <div>
+      <p class="lead"> Jogadores Pokémon VG, este é para vocês.
+
+O jogo está prestes a mudar em Pokémon Scarlet e Pokémon Violet!</p>
+
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/O6zFq5nd0tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <hr class="featurette-divider"> </div>
+
+
+
+
+
+    
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Voltar ao topo</a></p>
+    <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
